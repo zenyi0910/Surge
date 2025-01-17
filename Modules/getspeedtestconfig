@@ -1,0 +1,5 @@
+#!name=Boost Bandwidth(Night Only)
+#!desc=每晚高峰時段每兩分鐘背景執行一次 v20200504.01
+
+[Script]
+cron "*/2 20-23,0-2 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/getspeedtestconfig.js
